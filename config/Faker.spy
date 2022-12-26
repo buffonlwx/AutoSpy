@@ -645,6 +645,7 @@ js_config:
   Env: jd_shopGifts_ids
   KeyWord:
   - - jd_shopGifts_ids
+  - - jd_shopFollowGiftId
   Name: 【Faker】环境店铺礼包
   Script: jd_shopGifts.js
   TimeOut: 0
