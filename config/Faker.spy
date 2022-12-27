@@ -375,6 +375,7 @@ js_config:
   Env: jd_wxCompleteInfoId
   KeyWord:
   - - jd_wxCompleteInfoId
+  - - jd_completeInfoActivity_activityId
   Name: 【船长】完善信息有礼
   Script: jd_wxCompleteInfo.py
   TimeOut: 0
