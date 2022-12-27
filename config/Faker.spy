@@ -660,3 +660,21 @@ js_config:
   Script: jd_cjhy_completeInfoActivity.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: M_WX_SHARE_URL
+  KeyWord:
+  - - M_WX_SHARE_URL
+  Name: 【Faker】M分享有礼
+  Script: m_jd_wx_share.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_TEAM_URL
+  KeyWord:
+  - - M_WX_TEAM_URL
+  Name: 【Faker】M组队瓜分
+  Script: m_jd_wx_team.js
+  TimeOut: 0
+  Wait: 2
