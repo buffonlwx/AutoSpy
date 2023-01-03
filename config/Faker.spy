@@ -610,7 +610,9 @@ js_config:
   Env: jd_txzj_collect_item_id
   KeyWord:
   - - jd_txzj_collect_item_id
+  - - jd_collect_item_activityUrl
   Name: 【Faker】收藏大师关注有礼
+  RegularRules: '@[\d|a-zA-Z]{24}@0'
   Script: jd_txzj_collect_item.js
   TimeOut: 0
   Wait: 2
@@ -676,5 +678,16 @@ js_config:
   - - M_WX_TEAM_URL
   Name: 【Faker】M组队瓜分
   Script: m_jd_wx_team.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_txzj_cart_item_id
+  KeyWord:
+  - - jd_txzj_cart_item_id
+  - - jd_cart_item_activityUrl
+  Name: 【Faker】收藏大师加购有礼
+  RegularRules: '@[\d|a-zA-Z]{24}@0'
+  Script: jd_txzj_cart_item.js
   TimeOut: 0
   Wait: 2
