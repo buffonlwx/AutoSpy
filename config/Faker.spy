@@ -691,3 +691,15 @@ js_config:
   Script: jd_txzj_cart_item.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_txzj_lottery_id
+  KeyWord:
+  - - jd_txzj_lottery_id
+  - - jd_lottery_activityUrl
+  Name: 【Faker】收藏大师幸运抽奖
+  RegularRules: '@[\d|a-zA-Z]{24}@0'
+  Script: jd_txzj_lottery.js
+  TimeOut: 0
+  Wait: 2
+  
