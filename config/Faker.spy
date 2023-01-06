@@ -702,3 +702,12 @@ js_config:
   Script: jd_txzj_lottery.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: DPCJID
+  KeyWord:
+  - - DPCJID
+  Name: 【船长】店铺抽奖-JK
+  Script: jd_dpcj.py
+  TimeOut: 0
+  Wait: 2
