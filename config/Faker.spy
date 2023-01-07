@@ -711,3 +711,30 @@ js_config:
   Script: jd_dpcj.py
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_interactsaas_gzspyl_activityId
+  KeyWord:
+  - - jd_lzkj_interactsaas_gzspyl_activityId
+  Name: 【Faker】interactsaas关注商品有礼
+  Script: jd_lzkj_interactsaas_gzspyl.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_interactsaas_gzyl_activityId
+  KeyWord:
+  - - jd_lzkj_interactsaas_gzyl_activityId
+  Name: 【Faker】interactsaas关注店铺有礼
+  Script: jd_lzkj_interactsaas_gzyl.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_interactsaas_jgyl_activityId
+  KeyWord:
+  - - jd_lzkj_interactsaas_jgyl_activityId
+  Name: 【Faker】interactsaas加购有礼
+  Script: jd_lzkj_interactsaas_jgyl.js
+  TimeOut: 0
+  Wait: 2
