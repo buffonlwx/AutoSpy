@@ -41,6 +41,7 @@ js_config:
   Env: jd_fxyl_activityId
   KeyWord:
   - - jd_fxyl_activityId
+  - - jd_wxShareActivity_activityId
   Name: 【云上】分享有礼
   Script: jd_share.js
   TimeOut: 0
