@@ -743,3 +743,12 @@ js_config:
   Script: jd_lzkj_interactsaas_jgyl.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_interactsaas_yqhyrh_activityId
+  KeyWord:
+  - - jd_lzkj_interactsaas_yqhyrh_activityId
+  Name: 【Faker】lzkj_interactsaas邀请好友入会
+  Script: jd_lzkj_interactsaas_yqhyrh.js
+  TimeOut: 0
+  Wait: 2
