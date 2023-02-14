@@ -752,3 +752,12 @@ js_config:
   Script: jd_lzkj_interactsaas_yqhyrh.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_wxShopFollowId
+  KeyWord:
+  - - jd_wxShopFollowId
+  Name: 【船长】关注店铺有礼-JK
+  Script: jd_wxShopFollow.py
+  TimeOut: 0
+  Wait: 2
