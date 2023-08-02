@@ -761,3 +761,21 @@ js_config:
   Script: jd_wxShopFollow.py
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_prodev_actCode
+  KeyWord:
+  - - jd_prodev_actCode
+  Name: 【Faker】邀请好友入会得好礼
+  Script: jd_prodev.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxTeam_activityUrl
+  KeyWord:
+  - - jd_wxTeam_activityUrl
+  Name: 【Faker】组队瓜分奖品
+  Script: jd_wxTeam.js
+  TimeOut: 0
+  Wait: 2
