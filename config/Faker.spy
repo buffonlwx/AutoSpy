@@ -779,3 +779,12 @@ js_config:
   Script: jd_wxTeam.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_perfectInfo_url
+  KeyWord:
+  - - jd_lzkj_loreal_perfectInfo_url
+  Name: 【Faker】完善有礼欧莱雅
+  Script: jd_lzkj_loreal_perfectInfo.js
+  TimeOut: 0
+  Wait: 2
