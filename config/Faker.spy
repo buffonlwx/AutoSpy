@@ -806,3 +806,12 @@ js_config:
   Script: jd_shopSign.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_shopDraw_venderId
+  KeyWord:
+  - - jd_shopDraw_venderId
+  Name: 【Faker】店铺左侧刮刮乐
+  Script: jd_shopDraw.js
+  TimeOut: 0
+  Wait: 2
