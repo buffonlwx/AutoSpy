@@ -1,0 +1,28 @@
+js_config:
+- Container:
+  - []
+  Env: SEVENDAY_LIST
+  KeyWord:
+  - - SEVENDAY_LIST
+  Name: 超级无限店铺
+  Script: liu.js
+  TimeOut: 0
+  Wait: 0
+- Container:
+  - []
+  Env: SEVENDAY_LIST2
+  KeyWord:
+  - - SEVENDAY_LIST2
+  Name: 超级无限店铺
+  Script: liu.js
+  TimeOut: 0
+  Wait: 0
+- Container:
+  - []
+  Env: SEVENDAY_LIST3
+  KeyWord:
+  - - SEVENDAY_LIST3
+  Name: 超级无限店铺
+  Script: liu.js
+  TimeOut: 0
+  Wait: 0
