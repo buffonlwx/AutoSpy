@@ -5,7 +5,7 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST
   Name: 超级无限店铺
-  Script: liu.js
+  Script: 
   TimeOut: 0
   Wait: 0
 - Container:
@@ -14,7 +14,7 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST2
   Name: 超级无限店铺
-  Script: liu.js
+  Script: 
   TimeOut: 0
   Wait: 0
 - Container:
@@ -23,6 +23,6 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST3
   Name: 超级无限店铺
-  Script: liu.js
+  Script: 
   TimeOut: 0
   Wait: 0
