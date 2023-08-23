@@ -5,7 +5,7 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST
   Name: 【liu】超级无限店铺
-  Script: shufflewzc_faker3_main/liu_jd_sevenDay.js
+  Script: liu_jd_sevenDay.js
   TimeOut: 0
   Wait: 0
 - Container:
@@ -14,7 +14,7 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST2
   Name: 【liu】超级无限店铺二
-  Script: shufflewzc_faker3_main/liu_jd_sevenDay.js
+  Script: liu_jd_sevenDay.js
   TimeOut: 0
   Wait: 0
 - Container:
@@ -23,6 +23,6 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST3
   Name: 【liu】超级无限店铺三
-  Script: shufflewzc_faker3_main/liu_jd_sevenDay.js
+  Script: liu_jd_sevenDay.js
   TimeOut: 0
   Wait: 0
